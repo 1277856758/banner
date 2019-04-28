@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/xzcss.css"/>
+        <!-- <script src="js/jquery1.0.0.1.js"></script> -->
+    </head>
+    <body>
+        <div class="wrap" id="wrap">
+            <div class="banner" id="banner">
+                <ul class='bannerInser'>
+                <!--五张图片-->
+                    <li><img src="images/a.jpg" alt=""/></li>
+                    <li><img src="images/b.jpg" alt=""/></li>
+                    <li><img src="images/c.jpg" alt=""/></li>
+                    <li><img src="images/d.jpg" alt=""/></li>
+                    <li><img src="images/e.jpg" alt=""/></li>
+                </ul>
+                <!--左右切换按钮-->
+                <div class="arrow" id="arrow">
+                    <span class="prev"></span>
+                    <span class="next"></span>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/xz.js"></script>
+    <script>
+        //  class BannerCompont {
+        //     constructor(props) {
+        //         console.log(props)
+        //     }
+          
+        //     toString() {
+        //       return '(' + this.x + ', ' + this.y + ')';
+        //     }
+        //   }
+        let slide = document.getElementById("banner");
+        window.onload = () => {
+            let banner = new BannerCompont(
+            {
+                bannerWrap: 'banner',
+                banInser: 'bannerInser',
+                banBut: 'arrow',
+                
+            }
+        )
+        } 
+    </script>
+</html>
