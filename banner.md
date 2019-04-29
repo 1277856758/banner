@@ -11,4 +11,4 @@ window.onload = () => {
         )
         } 
 ```
-[点击可查看在线demo](https://1277856758.github.io/bird/)
+[点击可查看在线demo](https://1277856758.github.io/banner/)
